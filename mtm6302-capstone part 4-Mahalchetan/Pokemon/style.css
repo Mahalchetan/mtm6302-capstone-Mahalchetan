@@ -1,0 +1,21 @@
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+.pokemon-card.caught {
+    background-color: #f8d7da;
+}
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+.catch-release {
+    margin-top: 10px;
+}
